@@ -18,7 +18,8 @@ if (num_parcelas == 0)
 
 else {Console.WriteLine("Informe a taxa mensal por parcela (Em%):");
 float taxa_juros = float.Parse(Console.ReadLine());
-valor_final = Financiamento.TaxaFin(valor_veiculo, num_parcelas, taxa_juros); }
+valor_final = Financiamento.TaxaFin(valor_veiculo, num_parcelas, taxa_juros); 
+}
     
 
 Console.WriteLine($"O valor total pago no veículo é: R${valor_final} ");
